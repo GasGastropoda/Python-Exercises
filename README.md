@@ -5,5 +5,5 @@ The purpose of this repo is to track my growth as I become acustomed to programm
 
 EXERCISE LEGEND:
 ---------------
-Files starting with PP_ are exercises I have found from:
+- Files starting with PP_ are exercises I have found from:
 https://www.practicepython.org/

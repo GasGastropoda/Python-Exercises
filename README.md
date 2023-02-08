@@ -3,6 +3,8 @@ A variety of exercises I attempt as I learn how to make small and simple Python 
 
 The purpose of this repo is to track my growth as I become acustomed to programming and eventually move to other languages. 
 
+https://wakatime.com/badge/github/GasGastropoda/Python-Exercises.svg
+
 EXERCISE LEGEND:
 ---------------
 - Files starting with PP_ are exercises I have found from:

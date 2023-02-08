@@ -3,10 +3,7 @@ A variety of exercises I attempt as I learn how to make small and simple Python 
 
 The purpose of this repo is to track my growth as I become acustomed to programming and eventually move to other languages. 
 
-<img
-  src="https://github.com/GasGastropoda/Python-Exercises/blob/main/images/stat.svg"
-  alt="Alternative Text"
-/>
+<a href="https://wakatime.com/badge/github/GasGastropoda/Python-Exercises"><img src="https://wakatime.com/badge/github/GasGastropoda/Python-Exercises.svg" alt="wakatime"></a>
 
 EXERCISE LEGEND:
 ---------------

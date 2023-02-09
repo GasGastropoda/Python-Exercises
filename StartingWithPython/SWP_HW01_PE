@@ -60,3 +60,13 @@ total_students = males + females
 male_percent = (males/total_students)*100
 female_percent = (females/total_students)*100
 print(f'out of {total_students}, {male_percent}% are male, and {female_percent}% are female.')
+
+# Writes a program which compounds interest over a specific amount of time
+#acquire all needed information from the user
+starting_amount = int(float(input('How much money did you deposit into the account? ')))
+annual_interest = int(float(input('What is the annual interest rate?  ')))
+converted_interest = annual_interest/100 # converts the interest from a percentage to a decimal
+times_compounded = int(float(input('How many months in a year is your interest compounded? ')))
+number_of_years = int(float(input('How long will the account be left to accrue interest? (in years) ')))
+amount_after_years = starting_amount*(1+(converted_interest/times_compounded)**(times_compounded*number_of_years))
+print(f'After {number_of_years} years with an interest rate of {annual_interest:.2f}, you will have ${amount_after_years:.2f} in your account.')

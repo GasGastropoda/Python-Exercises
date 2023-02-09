@@ -10,5 +10,5 @@ EXERCISE LEGEND:
 - Files starting with PP_ are exercises I have found from:
 https://www.practicepython.org/
 - Files starting with SWP_ are exercises from:
-"Starting out with Python: 5th Edition" by Tony Gaddis
+"Starting out with Python: 5th Edition" by Tony Gaddis:
 https://www.pearson.com/en-us/subject-catalog/p/starting-out-with-python/P200000003356

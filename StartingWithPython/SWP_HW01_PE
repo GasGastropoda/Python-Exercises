@@ -51,3 +51,12 @@ ratioed_butter = ratio * 1
 ratioed_flour = ratio * 2.75
 print(f'if you want to make {cookies_desired} cookies, you will need: ')
 print(f'{ratioed_sugar:.2f} cups of sugar, {ratioed_butter:.2f}, and {ratioed_flour:.2f} cups of flour.')
+
+# Writes a program which asks a user for the number of males and number of females in their class.
+# Display the percentage of males and females in the class
+males = int(input('How many male students are in your class? '))
+females = int(input('How many female students are in your class? '))
+total_students = males + females 
+male_percent = (males/total_students)*100
+female_percent = (females/total_students)*100
+print(f'out of {total_students}, {male_percent}% are male, and {female_percent}% are female.')

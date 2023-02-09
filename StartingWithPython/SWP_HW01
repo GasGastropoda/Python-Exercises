@@ -1,1 +1,63 @@
+# Page 37: Program 2-1 | output.py
+# This is a simple program which prints out a name and two address lines.
+print('Kate Austen')
+print('123 Full Circle Drive')
+print('Asheville, NC 28899')
+# The printed results are string values. 
+# string literals must be in quotation marks. 
 
+# Page 37: Program 2-2 | double_quotes.py
+# simple program which prints strings surrounded in double quotes
+print("Kate Austen")
+print("123 Full Circle Drive")
+print("Asheville, NC 28899")
+# shows that strings can be surrounded by either single or double quotes
+
+# Page 38: Program 2-3 | apostrophe.py
+# A program which explains that apostrophes can be used in strings, but they must be surrounded by double quotes
+print("Don't fear!")
+print("I'm here!")
+
+# Page 38: Program 2-4 | display_quote.py
+# A program which explains that quotes can be used in strings, but they must be surrounded by single quotes.
+print('Your assignment is to read "Hamlet" by tommorow')
+
+# checkpoint:
+# 2.7 Write a program that displays your name
+print('Maria de los Angeles')
+# 2.8 Write a statement that displays the following text: Python's the best!
+print("Python's the best!")
+# 2.9 Write a statement that displays the following text: The cat said "meow".
+print('The cat said "meow".')
+
+# Page 39: Program 2-5 | comment1.py
+# This program explains the use of comments
+# but I've been using them all along. so no point in trying to explain them now.
+
+# Page 40: Program 2-6 | comment2.py
+# This program explains the use of end-line comments
+print('Kate Austen') # Displays the name
+print('123 Full Circle Drive') # Displays the address
+print('Asheville, NC 28899') # Displays the city, state, and zip
+
+# Page 42: Program 2-7 | variable_demo.py
+# This program demonstrates a variable
+room = 503
+print('I am staying in room number')
+print(room)
+
+# Page 42: Program 2-8 | variable_demo2.py
+# Creates two variables: top_speed and distance
+top_speed = 160
+distance = 300
+# Display the values referenced by variables
+print('the top speed is')
+print(top_speed)
+print('the distance traveled is')
+print(distance)
+
+# Page 45: Program 2-9 | variable_demo3.py
+# Program which prints several items in one function
+# This program demonstrates a variable
+room = 503
+print('I am staying in room number', room)

@@ -1,1 +1,10 @@
 # write a program which displays name, address, city, state, and zip
+name = input('what is your name? ')
+address = input('What is your address? (include your city, state and zip)')
+number = input('what is your phone number? ')
+major = input('What is your major? ')
+print('Hello ' + name + '!')
+print( 'your address is ' + address + '.')
+print('your phone number is ' + number + '.')
+print('and your major is ' + major + '.')
+

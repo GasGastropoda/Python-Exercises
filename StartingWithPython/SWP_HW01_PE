@@ -35,3 +35,9 @@ total_cost = before_tax + total_tax
 print(f'state tax is ${states_tax:.2f}')
 print(f'county tax is ${county_tax:.2f}')
 print(f'The total purchase with state and county tax included is ${total_cost:.2f}')
+
+# Write a program which converts celsius to fahrenheit
+celsius = int(float(input('Enter the temperature in celsius: ')))
+fahrenheit = (celsius * 9 / 5) + 32
+print(f'{celsius:.1f} degrees celsius is {fahrenheit:.1f} degrees fahrenheit')
+

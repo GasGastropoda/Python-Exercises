@@ -12,3 +12,26 @@ print('and your major is ' + major + '.')
 projected_amount = int(input('Enter the amount of total sales:'))
 total_sales = projected_amount * 0.23
 print(f'The total profit is ${total_sales:.2f}')
+
+# Write a program which calculates the amount of acres in the inputted tract
+tract_amount = int(input('Enter the amount of square feet in the tract: '))
+total_acres = tract_amount / 43560
+print(f'the total amount of acres in {tract_amount} square feet is {total_acres:.2f} acres')
+
+# Write a program which calculates the various speeds which a car travels
+distance_6 = 70 * 6
+distance_10 = 70 * 10
+distance_15 = 70 * 15
+print(f'If traveling at 70mph for 6 hours, the distance traveled is {distance_6} miles')
+print(f'If traveling at 70mp for 10 hours, the distance traveled is {distance_10} miles')
+print(f'If traveling at 70mph for 15 hours, the distance traveled is {distance_15} miles')
+
+# Write a program which calculates sales tax and total cost of their purchase
+before_tax = int(float(input('Enter the amount of your purchase before tax: ')))
+states_tax = before_tax * 0.025
+county_tax = before_tax * 0.05
+total_tax = states_tax + county_tax
+total_cost = before_tax + total_tax
+print(f'state tax is ${states_tax:.2f}')
+print(f'county tax is ${county_tax:.2f}')
+print(f'The total purchase with state and county tax included is ${total_cost:.2f}')

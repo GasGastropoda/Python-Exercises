@@ -8,3 +8,7 @@ print( 'your address is ' + address + '.')
 print('your phone number is ' + number + '.')
 print('and your major is ' + major + '.')
 
+# Write a program that asks the user to enter the amount of total sales, and then displays the profit made from the amount
+projected_amount = int(input('Enter the amount of total sales:'))
+total_sales = projected_amount * 0.23
+print(f'The total profit is ${total_sales:.2f}')

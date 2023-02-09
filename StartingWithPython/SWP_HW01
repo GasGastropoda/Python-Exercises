@@ -61,3 +61,27 @@ print(distance)
 # This program demonstrates a variable
 room = 503
 print('I am staying in room number', room)
+
+# Page 46: Program 2-10 | variable_demo4.py
+# Program which shows how to reassign variables
+# This program demonstrates variable assignment
+# Assign a value to the dollars variable
+dollars = 2.75
+print('I have', dollars, 'in my account.')
+# Reassign dollars so it references a different value
+dollars = 99.95
+print('But now I have', dollars, 'in my account!')
+
+# Page 48: Program 2-11 | string_variable.py
+# This is a program which shows how to store strings within variables
+# Create variables to reference two strings
+first_name = 'Kathryn'
+last_name = 'Marino'
+# Display the values referenced by the variables
+print(first_name, last_name)
+
+# Page 50: Program 2-12 | string_input.py
+# This is a program which allows user input and converts it into a string
+first_name = input('Enter your first name: ')  # Get the user's first name
+last_name = input('Enter your last name: ')  # Get the user's last name
+print('Hello', first_name, last_name)  # Print a greeting to the user

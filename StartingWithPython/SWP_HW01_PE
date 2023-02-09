@@ -41,3 +41,13 @@ celsius = int(float(input('Enter the temperature in celsius: ')))
 fahrenheit = (celsius * 9 / 5) + 32
 print(f'{celsius:.1f} degrees celsius is {fahrenheit:.1f} degrees fahrenheit')
 
+# This a program which adjusts ingredients to how many cookies they want to make
+# I realized that the values are scaled in terms of a ratio. This would mean you'd divide the amount you want by the predetermined recipe, and ratio the rest of the ingredients by that amount.
+# ie. 24/28 is 1/2, so you'd scale the recipe by multiplying the ingredient to be a half of their original value. The same would apply to increasing the ingredients (if you have enough faith in python)
+cookies_desired = int(float(input('Enter the amount of cookies you want to bake: ' )))
+ratio = cookies_desired / 48 
+ratioed_sugar = ratio * 1.5
+ratioed_butter = ratio * 1
+ratioed_flour = ratio * 2.75
+print(f'if you want to make {cookies_desired} cookies, you will need: ')
+print(f'{ratioed_sugar:.2f} cups of sugar, {ratioed_butter:.2f}, and {ratioed_flour:.2f} cups of flour.')

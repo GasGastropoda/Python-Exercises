@@ -85,3 +85,31 @@ print(first_name, last_name)
 first_name = input('Enter your first name: ')  # Get the user's first name
 last_name = input('Enter your last name: ')  # Get the user's last name
 print('Hello', first_name, last_name)  # Print a greeting to the user
+
+# Page 52: Program 2-13 | input.py
+# This is a program which converts string input into an integer
+# Get the user's name, age, and income
+name = input('What is your name? ')
+age = int(input('What is your age? '))
+income = float(input('What is your income? ')) # In order to include a float, you need to convert the string into it. So surround the input with float()
+# Display the data
+print('Here is the data you entered:')
+print('Name:', name)
+print('Age:', age)
+print('Income:', income)
+
+# Page 54: Program 2-14 | simple_math.py
+# This is a program which does basic arithmetic 
+salary = 2500.0  # Assign a value to the salary variable
+bonus = 1200.0 # Assign a value to the bonus variable
+pay = salary + bonus
+print('Your pay is', pay)  # Display the pay
+
+# Page 55: Program 2-15 | sale_price.py
+# This is a program which calculates the sale price of an object 
+# This program gets an item's original price and calculates its sale price with a 20% discount
+original_price = float(input("Enter the item's original price: "))  # Get the item's original price
+discount = original_price * 0.2  # Calculate the amount of the discount
+sale_price = original_price - discount  # Calculate sale price
+print('The sale price is', sale_price)  # Display sale price
+

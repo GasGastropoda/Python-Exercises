@@ -12,3 +12,4 @@ https://www.practicepython.org/
 - Files starting with SWP_ are exercises from:
 "Starting out with Python: 5th Edition" by Tony Gaddis:
 https://www.pearson.com/en-us/subject-catalog/p/starting-out-with-python/P200000003356
+- Exercises within the turtle folder will be given proper credit in folder's readme.md

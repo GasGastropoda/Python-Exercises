@@ -1,4 +1,5 @@
 # Python challenges: Say hello
+# http://pythonchallenges.weebly.com/hello.html
 # Exercise 1: Match the length of the text so that the underline matches what you wrote
 import turtle
 j = input("What would you like me to write? ") # assigns the user prompt to input text to variable

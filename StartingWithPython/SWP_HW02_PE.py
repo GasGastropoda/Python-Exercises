@@ -25,6 +25,19 @@ else:
     print('This number is not in range!') # if the user input does not fall within the range, then print the other message
 
 
+# Program 3: Age Classifier
+# Write a program that asks the user to enter a person's age.
+# Program displays whether the person is an infant, a child, a teenager, or an adult 
+'''user_input = input("Enter someone's age: ")
+
+dict = {
+    "infant" : range(0,1),
+    "child" : range(2,12),
+    "teenager" : range(13,19),
+    "adult" : range(20,100)
+
+}
+print('That person is a(n): ', list(dict.keys())[int(user_input)])'''
 
 
 

@@ -82,4 +82,8 @@ elif weight < 100:
 else:
     print('This value is not in range!')
 
-
+# program 6: magic dates
+# design a program tht assks the user to enter a month in numeric form, a day, and a two digit year
+# the program should then determine whether the month times the day equals the year
+# if so, it should display a message saying the date is magic.
+# otherwise, it should display it is not.
